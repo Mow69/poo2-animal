@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0CC31299293602EC006C0D8F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CC31298293602EC006C0D8F /* main.cpp */; };
+		0CC312A42936037E006C0D8F /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CC312A22936037E006C0D8F /* Animal.cpp */; };
+		0CC312A729360390006C0D8F /* Diet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CC312A529360390006C0D8F /* Diet.cpp */; };
+		0CC312AA2936039F006C0D8F /* Species.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CC312A82936039F006C0D8F /* Species.cpp */; };
+		0CC312AD29360449006C0D8F /* Lamp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CC312AB29360449006C0D8F /* Lamp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		0CC31295293602EC006C0D8F /* TP2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TP2; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC31298293602EC006C0D8F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0CC312A22936037E006C0D8F /* Animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
+		0CC312A32936037E006C0D8F /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		0CC312A529360390006C0D8F /* Diet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Diet.cpp; sourceTree = "<group>"; };
+		0CC312A629360390006C0D8F /* Diet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Diet.h; sourceTree = "<group>"; };
+		0CC312A82936039F006C0D8F /* Species.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Species.cpp; sourceTree = "<group>"; };
+		0CC312A92936039F006C0D8F /* Species.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Species.h; sourceTree = "<group>"; };
+		0CC312AB29360449006C0D8F /* Lamp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lamp.cpp; sourceTree = "<group>"; };
+		0CC312AC29360449006C0D8F /* Lamp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lamp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,33 @@
 		0CC31297293602EC006C0D8F /* TP2 */ = {
 			isa = PBXGroup;
 			children = (
+				0CC312A029360324006C0D8F /* include */,
+				0CC3129F29360306006C0D8F /* src */,
 				0CC31298293602EC006C0D8F /* main.cpp */,
 			);
 			path = TP2;
+			sourceTree = "<group>";
+		};
+		0CC3129F29360306006C0D8F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0CC312A22936037E006C0D8F /* Animal.cpp */,
+				0CC312A529360390006C0D8F /* Diet.cpp */,
+				0CC312A82936039F006C0D8F /* Species.cpp */,
+				0CC312AB29360449006C0D8F /* Lamp.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0CC312A029360324006C0D8F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0CC312A32936037E006C0D8F /* Animal.h */,
+				0CC312A629360390006C0D8F /* Diet.h */,
+				0CC312AC29360449006C0D8F /* Lamp.h */,
+				0CC312A92936039F006C0D8F /* Species.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC312AA2936039F006C0D8F /* Species.cpp in Sources */,
+				0CC312A729360390006C0D8F /* Diet.cpp in Sources */,
 				0CC31299293602EC006C0D8F /* main.cpp in Sources */,
+				0CC312A42936037E006C0D8F /* Animal.cpp in Sources */,
+				0CC312AD29360449006C0D8F /* Lamp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
