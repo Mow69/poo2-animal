@@ -9,7 +9,8 @@
 
 Diet::Diet()
 {
-    // Define default value
+    //ctor
+    // Define default values
     this->m_nameDiet = "*Carnivore*";
     this->m_quantityDiet = "*Gros mangeur*";
 }
@@ -22,6 +23,7 @@ Diet::~Diet()
 /*
 *   GETTER / SETTER
 */
+// nameDiet
 string Diet::getNameDiet(){
     return this->m_nameDiet;
 }
@@ -30,6 +32,7 @@ void Diet::setNameDiet(string p_diet){
     this->m_nameDiet = p_diet;
 }
 
+// quantityDiet
 string Diet::getQuantityDiet(){
     return this->m_quantityDiet;
 }

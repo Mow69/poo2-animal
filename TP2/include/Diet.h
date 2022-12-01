@@ -14,8 +14,13 @@ using namespace std;
 class Diet
 {
     public:
+        // ctor
         Diet();
+    
+        // dtor
         virtual ~Diet();
+    
+        // Getters Setters
         string getNameDiet();
         void setNameDiet(string p_diet);
         string getQuantityDiet();
@@ -25,6 +30,7 @@ class Diet
 
 
     private:
+    // define attributes
          string m_nameDiet;
          string m_quantityDiet;
 

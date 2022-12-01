@@ -14,12 +14,16 @@ using namespace std;
 class Lamp
 {
     public:
+        //ctor
         Lamp();
+    
+        //dtor
         virtual ~Lamp();
 
     protected:
 
     private:
+        // define attribute
         string name;
 };
 

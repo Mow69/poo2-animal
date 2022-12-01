@@ -27,7 +27,8 @@ Animal::~Animal()
     //dtor
 }
 
-// Getter setter animal name
+// Getter setter Animal
+// animal name
 string Animal::getAnimalName(){
     return this->m_animalName;
 }
@@ -35,7 +36,8 @@ void Animal::setAnimalName(string p_animalName){
     this->m_animalName = p_animalName;
 }
 
-// Getter setter Diet
+// Getters setters Diet
+// nameDiet
 string Animal::getNameDiet(){
     return this->m_diet.getNameDiet();
 }
@@ -44,6 +46,7 @@ void Animal::setNameDiet(string p_diet){
     this->m_diet.setNameDiet(p_diet);
 }
 
+// quantityDiet
 string Animal::getQuantityDiet(){
     return this->m_diet.getQuantityDiet();
 }

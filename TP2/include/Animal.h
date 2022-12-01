@@ -13,14 +13,20 @@
 
 using namespace std;
 
+/**
+ * Animal : classe qui hérite de la classe Species
+ */
 class Animal : public Species
 {
     public:
+        // ctors
         Animal();
         Animal(Diet p_diet);
-
+    
+        // dtor
         virtual ~Animal();
-        // Getter Setter
+    
+        // Getters Setters
         string getSpecie();
         void setSpecie(string p_species);
         string getNameDiet();
@@ -29,11 +35,11 @@ class Animal : public Species
         void setQuantityDiet(string p_diet);
         string getAnimalName();
         void setAnimalName(string p_AnimalName);
-        //string s_getReproduction();
 
     protected:
 
     private:
+        // define attributes
         string m_species;
         Diet m_diet;
         string m_animalName;

@@ -82,9 +82,6 @@ int main()
     cout << "Le pelage de mon animal est de type " << lion->getCoat() << endl;
     cout << "Le mode de locomotion de mon animal est " << lion->getLocomotion() << endl;
     
-
-    
-
     return 0;
 }
 

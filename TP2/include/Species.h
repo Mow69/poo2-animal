@@ -14,9 +14,13 @@ using namespace std;
 class Species
 {
     public:
+        //ctor
         Species();
+    
+        //dtor
         virtual ~Species();
-        // getter setter
+    
+        // getters setters
         void setReproduction(string p_reproduction);
         string getReproduction();
         void setCoat(string p_coat);
@@ -27,6 +31,7 @@ class Species
     protected:
 
     private:
+        // define attributes
         string m_reproduction;
         string m_coat;
         string m_locomotion;

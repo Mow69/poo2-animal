@@ -12,7 +12,7 @@ using namespace std;
 
 Species::Species()
 {
-    //Default value
+    //Default values
     this->m_reproduction = "*ovovivipare*";
     this->m_coat = "*poilu*";
     this->m_locomotion = "*quadrupède*";
@@ -26,6 +26,7 @@ Species::~Species()
 }
 
 // getter setter
+// reproduction
 void Species::setReproduction(string p_reproduction){
     this->m_reproduction = p_reproduction;
 }
@@ -34,6 +35,7 @@ string Species::getReproduction(){
     return this->m_reproduction;
 }
 
+// coat
 void Species::setCoat(string p_coat){
     this->m_coat = p_coat;
 }
@@ -42,6 +44,7 @@ string Species::getCoat(){
     return this->m_coat;
 }
 
+// locomotion
 void Species::setLocomotion(string p_locomotion){
     this->m_locomotion = p_locomotion;
 }
